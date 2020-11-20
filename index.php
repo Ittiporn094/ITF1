@@ -36,7 +36,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
           while($Result = mysqli_fetch_array($res))
 {
            $UserID = $Result['ID'];
-           $Name = $Result['NAME'];
+           $Name = $Result['Name'];
            $Comment = $Result['Comment'];
            $Link = $Result['Link'];
 ?>
