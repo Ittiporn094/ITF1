@@ -1,6 +1,6 @@
 <?php
 $conn = mysqli_init();
-mysqli_real_connect($conn, 'kaiwindata.mysql.database.azure.com', 'kaiwin50@kaiwindata', '7144Eba1', 'ITFlab', 3306);
+mysqli_real_connect($conn, 'ann123.mysql.database.azure.com', 'Ittiporn@ann123', 'OWUlhm78', 'itflab', 3306);
 
 if (mysqli_connect_errno($conn))
 {
